@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head align="center">
+<link rel="icon" href="LOGO.png" type="image/png">  
+        <title> Economy Registration
+        </title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-image: url("a.jpg");
+                background-size: cover;
+            }
+            nav{
+    width:99.5%;
+    height:39px;
+    background-color: rgba(255, 255, 255, 0.685);
+    border-style: solid;
+    border-color: rgba(255, 255, 253, 0.89);
+}
+nav p{
+    font-family:Arial bold, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    line-height: 55px;
+    float: left;
+    padding: 5px 25px;
+}
+
+nav ul{
+    float: left;
+}
+nav ul li{
+float: left;
+list-style:none;
+position: relative;
+}
+nav ul li a{
+    display: block;
+    font-family:Arial bold, Helvetica, sans-serif;
+    color:black;
+    font-size: 16px;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-size: 18px;
+    background-color: rgb(138, 199, 253);
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.644) ;
+    border-style: solid;
+    border-color: rgba(254, 255, 255, 0.945) transparent;
+    padding: 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li{
+    width: 180px;
+    border-radius: 5px;
+}
+nav ul li ul li a
+{
+   padding: 8px 14px;
+}
+nav ul li ul li a:hover{
+    font-size: 20px;
+    background-color:rgb(176, 220, 255);
+}
+            table{
+                position:absolute;
+                top: 27%;
+                left:35%
+            }
+
+
+            h1{
+                position:absolute;
+                font-family: Arial, Helvetica, sans-serif;
+                top: 20%;
+                left:34%;
+                color: rgb(0, 0, 0);
+                
+            }
+            table{
+                border-style:solid;
+                border-spacing:25%;
+                background-color: rgba(250, 250, 250, 0.753);
+                border-color: rgba(243, 245, 247, 0.856);
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <img src="LOGO.png" width="40" height="40" align="left" >
+         <ul>
+             <li><a href="CLOUD.htm">HOME</a></li> 
+             <li><a href="#">Register</a>
+             <ul>
+                 <li><a href="pre.htm">Premium</a></li> 
+                 <li><a href="eco.htm">Economy</a></li>  
+                 <li><a href="gp.htm">Gold Package</a></li>  
+             </ul>
+             </li> 
+             <li><a href="login.htm">Login</a>
+             </li> 
+             <li><a href="#">About Us</a>
+             <ul>
+                 <li><a href="OM.htm">Our Mission</a></li> 
+                 <li><a href="A.htm">Achievements</a></li> 
+             </ul>
+             </li> 
+             <li><a href="contact.htm">CONTACT</a>
+             </li> 
+            </ul>
+     </nav>
+        <h1 align="center">ECONOMY   REGISTRATION FORM</h1>
+        <form method="post" action="eco.cgi">
+         <form>
+            <table><center>
+                <tr>
+                    <td>
+                        NAME:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter your Name" name="UseName">
+
+                    </td>
+                </tr>
+                <tr >
+                    <td>
+                        SEX:
+                    </td>
+                    <td>
+                        <input type="radio" name="SEX">Male
+                        <input type="radio" name="SEX">Female 
+                    </td>
+                </tr>
+                <tr >
+                    <td>
+                        COUNTRY:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter your country" name="country">
+                    </td>
+                </tr>
+                <tr >
+                    <td>
+                        PHONE NO:
+                    </td>
+                    <td>
+                        <select>
+                            <option>
+                                +91
+                            </option>
+                            <option>
+                                +1
+                            </option>
+                            <option>
+                                +144
+                            </option>
+                            <option>
+                                +141
+                            </option>
+                        </select>
+                        <input type="phone" placeholder="Phone number" name="num">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        EMAIL:
+                    </td>
+                    <td>
+                        <input type="email" placeholder="Email ID" name="mail"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        PASSWORD:
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Enter your Password" name="MyPass"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        SALARY:
+                    </td>
+                    <td>
+                        <input type="number" placeholder="Less than $1500 per month" name="sal">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="I Accept all the terms and conditions">I Accept all the terms and conditions
+                          
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="DONE">
+                    </td>
+                    <td>
+                        <input type="reset" value="UNDO">
+                    </td>
+                </tr>
+                </center>
+            </table>
+        </form>
+        </form>
+    </body>
+</html>

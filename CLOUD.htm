@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="icon" href="LOGO.png" type="image/png">
+    <title>H&S Tourism</title> 
+    <meta charset="UTF-8">
+    <meta name="description" content="H&S Travels">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="author" content="Venu naredla">
+    <meta name="viewport" width=device-width, initial-scale=1.0"> 
+    <style>
+ *{
+   margin:0;
+   padding:0;
+}
+.video-background
+{
+    position:absolute;
+    right:0;
+    left: 22.5%;
+    bottom:35%;
+    min-width: 55%;
+    min-height: 50%;
+    width:10%;
+    height:10%;
+    z-index: -1;
+}
+nav{
+    width:100%;
+    height:39px;
+    background-color: rgba(0, 0, 0, 0.685);
+    border-style: solid;
+    border-color: rgba(255, 249, 249, 0.205);
+    position: fixed;
+}
+nav p{
+    font-family:Arial bold, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 55px;
+    float: left;
+    padding: 0px;
+    position: fixed;
+}
+
+nav ul{
+    float: left;
+}
+nav ul li{
+float: left;
+list-style:none;
+position: relative;
+}
+nav ul li a{
+    display: block;
+    font-family:Arial bold, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-size: 18px;
+    background-color: rgba(235, 0, 0, 0.733);
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0) ;
+    border-style: solid;
+    border-color: rgba(254, 255, 255, 0.945) transparent;
+    padding: 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+nav ul li:hover ul{
+    display: block;
+    border-color: transparent;
+
+}
+nav ul li ul li{
+    display: block;
+    width: 145px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+nav ul li ul li a
+{
+   padding: 8px 14px;
+}
+nav ul li ul li a:hover{
+    font-size: 20px;
+    background-color:rgba(253, 25, 17, 0.637);
+}
+
+h2{
+    position: fixed;
+    top: 45%;
+    left: 38.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color:transparent;
+    background-color:rgba(244, 245, 248, 0.527);
+    animation-name: h22;
+    animation-duration:2s;
+    animation-iteration-count: 10;
+   
+}
+@keyframes h22{
+    0%{transform: scale(1.0);}
+    100%{transform:scale(2.5)}
+}
+    
+h3{
+    position: fixed;
+    text-align:left;
+    top: 52.25%;
+    bottom:40%;
+    left: 46.5%;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.venun{
+    position: fixed;
+    text-align: center;
+    top: 75%;
+    left: 15%;
+    right: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: white;
+}
+button{
+    position:absolute;
+    background-color:rgba(49, 147, 233, 0.329);
+    animation-name:tiger;
+    animation-duration: 1s;
+    animation-iteration-count: 10;
+    border-color:rgb(0,0,0);
+    border-radius:10px;
+    
+}
+body{
+    background-image: url("globe.jpg");
+    background-size: cover;
+}
+.a{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+.venu{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+}
+.harika{
+    position: absolute;
+    top: 38%;
+    left: 90%;
+}
+.ven{
+    position:fixed;
+    top: 24%;
+    left:90.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: azure;
+}
+.ve{
+    position:absolute;
+    top: 26%;
+    left: 88%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: azure;
+}
+.har{ position:fixed;
+    top: 54%;
+    left:90.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: azure;
+
+}
+.ha{
+    position:absolute;
+    top: 56%;
+    left: 86%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: azure;
+}
+</style>
+    </head>
+    <body>
+<p class="ven">Venu naredla</p>
+<p class="ve">Managing Director, H&S Travels</p>
+<p class="har">Harika Tadi</p>
+<p class="ha">Asst Managing Director,H&S Travels</p>
+
+        <video autoplay muted loop class="video-background"><source src="v1.mp4" type="video/mp4">
+
+        </video>
+    <nav>
+       <img src="LOGO.png" width="40" height="40" align="left">  
+       <ul>
+        <li><a href="CLOUD.htm">HOME</a></li> 
+        <li><a href="#">Register</a>
+        <ul>
+            <li><a href="pre.htm">Premium</a></li> 
+            <li><a href="eco.htm">Economy</a></li>  
+            <li><a href="gp.htm">Gold Package</a></li>  
+        </ul>
+        </li> 
+        <li><a href="login.htm">Login</a>
+        </li> 
+
+        <li><a>Tour Package Prices</a>
+                <ul class="v">
+                    <li><a href="se1/api.php?package=gold">Gold Star Package</a></li>
+                    <li><a href="se2/api.php?package=deluxe">Deluxe Package</a></li>
+                    <li><a href="se2/api.php?package=premium">Premium Package</a></li>
+                    <li><a href="se3/api.php?package=basic">Starter basic Package</a></li>
+                    <li><a href="se3/api.php?package=adventure">Adventure Package</a></li>
+                    <li><a href="se4/api.php?package=economy&packageprice=300">Economy Package</a></li>
+                  </ul>
+                </li>
+
+                <li><a href="#">About Us</a>
+                    <ul>
+                        <li><a href="OM.htm">Our Mission</a></li> 
+                        <li><a href="A.htm">Achievements</a></li> 
+                    </ul>
+                    </li> 
+        <li><a href="contact.htm">CONTACT</a>
+        </li> 
+       </ul>
+</nav>
+<center>
+    <img src="LOGO.png" width="150" height="150"  class="a">
+<h2 align="bottom" class="na">WELCOME TO H&S TRAVELS</h2>
+<h3 align="bottom"><font color="red"><a href="pre.htm"><button>.REGISTER&nbspNOW.</button></a></font></h3>
+<p class="venun">Throughout our lives, people have thought that because we keep traveling and searching for new things to do, we are not focused. They have often thought we are flaky or unfocused.
+
+    But travel helped us find our purpose and put focus into our lives. The more we got lost in our travels, the richer our lives became.</p>
+</center>
+<img src="venudp.jpg" width="auto" height="100" class="venu">
+<img src="harika.jpg" width="auto" height="100" class="harika">
+
+
+
+</body>
+</html>
